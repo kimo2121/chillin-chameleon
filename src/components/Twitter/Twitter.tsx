@@ -1,6 +1,6 @@
 import React from "react";
 import "./twitter.css";
-import twitter from "../../imgs/twitter.png";
+import twitter from "../../assets/images/twitter.png";
 const Twitter: React.FC = () => {
   return (
     <div className="twitter">

@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
-import logo from "../../imgs/logo.svg";
-import discord from "../../imgs/discord.png";
+import logo from "../../assets/images/logo.svg";
+import discord from "../../assets/images/discord.png";
 
 const Footer: React.FC = () => {
   return (
