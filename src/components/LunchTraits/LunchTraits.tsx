@@ -21,7 +21,7 @@ const LunchTraits: React.FC = () => {
           title=""
           sliderItems={sliderCards}
           slidesToShow={
-            window.innerWidth > 1500 ? 5 : window.innerWidth > 768 ? 3 : 1
+            window.innerWidth > 1500 ? 5 : window.innerWidth > 767 ? 3 : 1
           }
           slidesToScroll={1}
           arrows={true}
