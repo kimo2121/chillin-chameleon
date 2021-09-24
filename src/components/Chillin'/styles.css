@@ -1,0 +1,42 @@
+.rarity-rank {
+  width: 30%;
+  background-color: #ff950079;
+  border-radius: 25px;
+}
+.chilling-top-part {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.top-part-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 430px;
+}
+.top-part-right button {
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background-color: #0db300;
+}
+.rarity-rank {
+  width: 80%;
+  padding-bottom: 50px;
+  /* height: 523px; */
+}
+.rarity-rank p {
+  width: 70%;
+  margin: 5vh auto;
+}
+.rarity-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rarity-inner input {
+  width: 108px;
+  height: 30px;
+}
