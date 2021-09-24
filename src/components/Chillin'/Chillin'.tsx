@@ -5,6 +5,9 @@ import "./styles.css";
 const Chillin: React.FC = () => {
   return (
     <div className="chilling-component">
+      <p style={{ fontSize: "2rem" }}>Chillin' Chameleon</p>
+      <hr className="footer_hr" />
+
       {/* <p>
         Chilleon, that’s short for “Chillin’ Chameleon” he vanquishes work by
         chillin! For Chilleon it’s the weekend every day. Chillin’ is the way to

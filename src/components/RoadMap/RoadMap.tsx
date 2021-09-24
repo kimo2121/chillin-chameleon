@@ -6,6 +6,8 @@ const RoadMap: React.FC = () => {
     <div className="roadmap">
       <h1>Roadmap</h1>
       <span>Items we will begin work on when reaching these goals!</span>
+      <br />
+      <br />
       <div className="maps-container">
         <div className="map">
           <p>@50% Sold</p>

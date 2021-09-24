@@ -40,3 +40,13 @@
   width: 108px;
   height: 30px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .chilling-top-part {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-part-right {
+    width: 100vw;
+  }
+}

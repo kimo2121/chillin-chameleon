@@ -29,3 +29,30 @@
   width: 310px;
   /* width: 100%; */
 }
+
+@media only screen and (max-width: 1024px) {
+  .features {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .features {
+    height: auto;
+  }
+  .features > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .features-inner img {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+  }
+  .art-collection p {
+    width: 200px;
+    /* width: 100%; */
+  }
+  .features-inner {
+    justify-content: flex-start;
+  }
+}

@@ -6,3 +6,11 @@
   height: 100vh;
   border-bottom: 4px solid #fe644a;
 }
+.bottom_bg {
+  background-image: url(/src/assets/images/Bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* width: 100vw; */
+}

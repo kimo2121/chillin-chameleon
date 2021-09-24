@@ -12,11 +12,13 @@ const Home: React.FC = () => {
     <div className="home">
       <div className="banner"></div>
       <Featuers />
-      <Chillin />
-      <RoadMap />
-      <CustomizedAccordions />
-      <Twitter />
-      <Footer />
+      <div className="bottom_bg">
+        <Chillin />
+        <RoadMap />
+        <CustomizedAccordions />
+        <Twitter />
+        <Footer />
+      </div>
     </div>
   );
 };

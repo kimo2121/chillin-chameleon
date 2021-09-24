@@ -11,3 +11,14 @@
   padding: 20px 0;
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: 600px) {
+  .maps-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .map {
+    margin: 1rem 0;
+  }
+}
