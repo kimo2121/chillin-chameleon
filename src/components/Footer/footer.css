@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90vw;
+  margin: auto;
+  text-align: left;
+}
+
+.logo {
+  width: 200px;
+}
+.discord {
+  width: 25vw;
+  height: 25vw;
+}
+.footer_topTitle {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.footer_hr {
+  background: #0db300;
+  width: 80vw;
+  border-top: 2px solid #0db300;
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+  .discord {
+    width: 80vw;
+    height: 80vw;
+  }
+}
