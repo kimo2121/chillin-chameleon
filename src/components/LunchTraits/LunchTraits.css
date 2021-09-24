@@ -1,0 +1,55 @@
+.LunchTraits {
+  padding: 1rem 0;
+  width: 80%;
+  height: 100%;
+  background-color: #ff9500a1;
+  border-radius: 2rem;
+  margin: 5rem auto;
+  padding: 0.5rem 4rem 4rem 4rem;
+}
+
+.Card {
+  width: 11vw;
+  height: 30vh;
+  background-color: #ff9600;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+  padding: 4rem 1rem 2rem 1rem;
+}
+.Card_img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Card {
+    width: 200px;
+  }
+  .LunchTraits {
+    width: auto;
+    margin: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Card {
+    width: 150px;
+  }
+  .LunchTraits {
+    width: auto;
+    margin: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Card {
+    width: 150px;
+  }
+  .LunchTraits {
+    width: auto;
+    margin: 2rem;
+  }
+}

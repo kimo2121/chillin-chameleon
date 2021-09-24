@@ -16,6 +16,8 @@ const Chillin: React.FC = () => {
       </p> */}
       <div className="chilling-top-part">
         <SimpleSlider />
+        <br />
+        <br />
         <div className="top-part-right">
           <button>Connect ETH walletand MINT NFT</button>
           <p>
