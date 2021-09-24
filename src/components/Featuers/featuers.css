@@ -1,0 +1,31 @@
+.features {
+  background-image: url(/src/assets/images/WebBackground_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  border-bottom: 4px solid #fe644a;
+  display: flex;
+}
+.features > div {
+  width: 50%;
+}
+.features-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-inner img {
+  width: 80px;
+  height: 80px;
+  margin-right: 5vw;
+}
+.art-collection {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.art-collection p {
+  width: 310px;
+  /* width: 100%; */
+}

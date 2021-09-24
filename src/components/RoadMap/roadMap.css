@@ -1,0 +1,13 @@
+.maps-container {
+  display: flex;
+  justify-content: center;
+}
+.map {
+  margin: 0 4vw;
+  background-color: #ff9500a1;
+  border-radius: 25px;
+  width: 312px;
+  height: 293px;
+  padding: 20px 0;
+  box-sizing: border-box;
+}

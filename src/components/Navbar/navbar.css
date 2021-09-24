@@ -1,0 +1,131 @@
+.navbar {
+  z-index: 10;
+  background-color: #3f3f3f;
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  justify-content: center;
+  position: fixed;
+  transition: height 0.3s;
+  padding: 20px 0px 20px 0;
+  height: 103px;
+}
+
+.logo.height a {
+  font-size: 20px;
+}
+.logo img {
+  object-fit: contain;
+  width: 70%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+  margin: 0 1vw;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.nav-links a:hover {
+  color: white;
+}
+
+.logo a {
+  font-family: "Aclonica", sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+  color: #ecd19a;
+  align-items: center;
+  transition: all 0.3s;
+}
+.slide-x-icon {
+  fill: white;
+  position: absolute;
+  margin-top: 3vh;
+  cursor: pointer;
+  right: 0;
+  margin-right: 2vw;
+  z-index: 100;
+  width: 20px;
+}
+.slide-menu {
+  position: absolute;
+  right: -100%;
+  width: 320px;
+  height: 100vh;
+  top: 0;
+  z-index: 100;
+  background-color: black;
+  transition: all 0.5s;
+}
+.slide-menu.active {
+  right: 0;
+  top: 0;
+}
+.slide-menu-links {
+  flex-direction: column;
+  display: flex;
+
+  margin-top: 8vh;
+}
+.slide-menu-links a {
+  color: white;
+  margin-top: 2vh;
+}
+.slide-menu-icon {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  cursor: pointer;
+  margin-right: 2vw;
+  font-size: 20px;
+  width: 17.5px;
+  height: 20px;
+  fill: black;
+}
+
+@media screen and (max-width: 1200px) {
+  .web-nav {
+    width: 930px;
+  }
+}
+@media screen and (max-width: 976px) {
+  .nav-links {
+  }
+
+  .navbar.height,
+  .navbar {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 990px) {
+  .slide-outter {
+    margin: 0 auto;
+  }
+  .accordion__content {
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slide-outter {
+    margin: 0 auto;
+  }
+  .accordion__content {
+    width: 540px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mobile-logo a {
+    margin-right: 1vw;
+    font-size: 16px;
+  }
+  .mobile-logo {
+    width: 70vw;
+  }
+}
